@@ -422,7 +422,7 @@ footer div ul li a{
 
 @media screen and (max-width: 768px) {
 
-
+.tituloBlanco{ color: white;}
 .cajaFija{ display: none;}
     
 .letrasBlancasInicio{font-size: 2rem;}
