@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-
+/*quiero aclarar que hay muchas clases que deje de utilizar por boostrap y que no tuve tiempo de eliminarlas, ya para la entrega final espero poder hacerlo*/ 
 *{
     margin: 0;
     padding: 0;
@@ -426,6 +426,55 @@ footer div ul li a{
 
             }
 
+.navbar .navbar-nav .nav-link{  font-family: 'Roboto Condensed', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                border: #C2185B solid 0.5rem;
+                background-color: #F8BBD0 ;
+                color: #C2185B ;
+                margin: 1rem;
+                border-radius: 1rem;
+
+            }
+
+.logoUno{border: 3px solid #C2185B;
+border-radius: 1em;
+}
+
+.navbar-nav{text-align: center;
+}
+
+.navbar-toggler-icon{width: 4em;
+    height: 4em;}
+
+#boton{ background-color: white;
+border: #C2185B solid 0.5rem;
+
+}
+
+
+
+.card {
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: rgb(231, 219, 147);
+background-clip: border-box;
+border: 0.80rem solid #C2185B;
+border-radius: 1rem;
+
+
+}
+
+
+.card-body{ border-top: 0.50rem solid white;}
+
+
+
+.card-img-top{ object-fit: cover;}
+
 
 
 /*media queris*/
@@ -444,57 +493,3 @@ h1{ font-size: 5rem;
 
 
 }
-
-
-
-
-.navbar .navbar-nav .nav-link{  font-family: 'Roboto Condensed', sans-serif;
-                                font-weight: bold;
-                                font-size: 2rem;
-                                border: #C2185B solid 0.5rem;
-                                background-color: #F8BBD0 ;
-                                color: #C2185B ;
-                                margin: 1rem;
-                                border-radius: 1rem;
-
-                            }
-
-.logoUno{border: 3px solid #C2185B;
-        border-radius: 1em;
-        }
-
-.navbar-nav{text-align: center;
-            }
-
-.navbar-toggler-icon{width: 4em;
-                    height: 4em;}
-
-#boton{ background-color: white;
-        border: #C2185B solid 0.5rem;
-        
-    }
-
-
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: rgb(231, 219, 147);
-    background-clip: border-box;
-    border: 0.80rem solid #C2185B;
-    border-radius: 1rem;
-    
-    
-    }
-
-
-.card-body{ border-top: 0.50rem solid white;}
-
-
-
-.card-img-top{ object-fit: cover;}
-
-
