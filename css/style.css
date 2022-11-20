@@ -160,7 +160,7 @@ footer div ul li a{
                     }
 
 .movimientoCajaFija:hover{  transform:translate(-1rem,-1rem) scale(1.1,1.1);
-                            background-color: white;
+                            color: white;
                             border: 3px solid #C2185B;
                             background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
                             
@@ -200,13 +200,16 @@ footer div ul li a{
                             
                                 }
 
-.movimientoSeisImagenes{    transform:translate(1rem,1rem);
+.movimientoSeisImagenes{    transform:translate(0.1rem,0.1rem);
                             transition: transform 1s, background-color 1s;
+                            cursor: pointer;
+                        
                            
                         }
 
-.movimientoSeisImagenes:hover{      transform:translate(1rem,1rem) scale(1.05,1.05);
+.movimientoSeisImagenes:hover{      transform:translate(0.1rem,0.1rem) scale(1.05,1.05);
                                     background-color: #F8BBD0;
+                                    
                                 
                             }
 
@@ -227,7 +230,7 @@ footer div ul li a{
 
 .pieDePagina{   
                 
-                border-top: rgba(128, 128, 128, 0.37) 4px solid;
+                border-top: rgba(255, 255, 255, 0.623) 4px solid;
                 border-radius: 2rem;
                 
             }
@@ -302,6 +305,8 @@ footer div ul li a{
                     background-image: url(../assets/images/tortas/muestra.jpg);
                     background-position:  center;
                     margin-bottom: 50px;
+                    border-radius: 3rem;
+                    border: 1em solid white;
                     
                     }
                     
@@ -314,6 +319,8 @@ footer div ul li a{
                         background-image: url(../assets/images/especial/muestra.jpg);
                         background-position: center;
                         margin-bottom: 50px;
+                        border-radius: 3rem;
+                        border: 1em solid white;
                        
                     }
 
@@ -325,6 +332,8 @@ footer div ul li a{
                         background-image: url(../assets/images/contacto/muestra.jpg);
                         background-position: center;
                         margin-bottom: 50px;
+                        border-radius: 3rem;
+                        border: 1em solid white;
 
 }
 
