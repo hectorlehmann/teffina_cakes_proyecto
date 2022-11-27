@@ -1,0 +1,39 @@
+header{
+    .logoUno{   border: 3px solid $color-primario;
+                border-radius: 1em;
+            }
+
+    #boton{     background-color: $color-blanco;
+                border: $color-primario solid 0.5rem;
+                
+            .navbar-toggler-icon{   width: 4em;
+                                    height: 4em;}
+            
+        }
+        
+    .navbar .navbar-nav{    text-align: center; 
+
+                                .nav-link{  font-family: $tipografia-general;
+                                            font-weight: $negrita;
+                                            font-size: 2rem;
+                                            border: $color-primario solid 0.5rem;
+                                            background-color: $color-secundario;
+                                            color: $color-primario ;
+                                            margin: 1rem;
+                                            border-radius: 1rem;
+
+                                        }
+                        }
+    
+    #menuMovimiento:hover{  color: $color-blanco;
+                            background-color: $color-primario;
+                            border: $color-secundario solid 0.5rem;
+    
+                        }
+                
+       
+
+    
+            
+   
+    }

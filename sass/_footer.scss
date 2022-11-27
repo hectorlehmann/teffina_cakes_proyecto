@@ -1,0 +1,74 @@
+.pieDePagina{   
+                
+    border-top: rgba(255, 255, 255, 0.623) 4px solid;
+    border-radius: 2rem;
+    
+    .cajaFija{  background-color: $color-primario;
+                padding: 5px;
+                padding-top: 7px;
+                position: fixed;
+                bottom: 40px;
+                right: 0px;
+                border-radius: 25px 10px;
+                color: $color-blanco;
+                border: 3px solid $color-primario;
+
+               }
+
+    .iconoCajaFija{ color: $color-blanco;
+                    font-size: 5rem;
+                }
+    
+    .movimientoCajaFija{    transform: translateY(-1rem);
+                            transition: transform 1s;
+                
+                &:hover{        transform:translate(-1rem,-1rem) scale(1.1,1.1);
+                                color: $color-blanco;
+                                border: 3px solid $color-primario;
+                                background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+                                
+                            }
+
+                        }  
+    .centrarIconos{ display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-content: center;
+                .iconosFooter{  color: $color-primario;
+                                font-size: 3rem;
+                                margin: 10px;
+                                
+                                &:hover{ transform:rotate(-25deg);
+                                        transition: 1s;
+                
+                                        }      
+                            }
+                        .rotarIcono{    transform:rotate(-25deg);
+                           
+                           }
+                        
+                        
+
+                    }
+    .footerDos{         color: $color-primario;
+                        font-weight: $negrita;
+                        background-color: $color-secundario;
+                        border: $color-primario solid 0.5rem;
+                        border-radius: 5px;
+                        padding: auto;
+                        margin: 1rem;
+                }
+        
+    #menuFooterMovimiento:hover{        background-color: $color-primario;
+                                        color: $color-blanco;
+                                        border: $color-secundario solid 0.5rem;
+                                        text-decoration: $texto-sin-decoracion;
+                                }
+            
+    .pieDerechos{   
+                    text-align: center;
+                    color: $color-primario;
+                    font-weight: $negrita;
+                }    
+    
+    }
