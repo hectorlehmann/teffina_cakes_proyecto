@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+/*quiero aclarar que hay muchas clases que deje de utilizar por boostrap y que no tuve tiempo de eliminarlas, ya para la entrega final espero poder hacerlo*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{background-image: linear-gradient(to right top, #e0ee83, #ffcd77, #ffac91, #ff98bc, #e397e3);}
+
+
+
+#menuMovimiento:hover{  color: white;
+                        background-color: #C2185B;
+                        border: #F8BBD0 solid 0.5rem;
+
+                    }
+
+section div h3{ color: red; text-decoration: underline;}
+
+.textoRojo{color: red;}
+
+h1{color: #C2185B; 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:  bold;
+    font-size: 3rem;
+    color: #C2185B;
+    text-decoration: none;
+    
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300 bold;
+    font-size: 2rem;
+    color: black;
+
+}
+
+h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.cursiva{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+a{ text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+form{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300 bold;
+    font-size: 6rem;
+    
+}
+
+.espaciado{margin-top: 1rem;
+            font-size: 3rem;
+            font-weight: bold;
+        text-align: center;
+        justify-content: center;}
+
+
+
+.form-check-input:checked {
+    background-color: #C2185B;
+    border-color: #F8BBD0 }
+  
+.form-check-input:focus {
+    border-color: #F8BBD0;
+    outline: 0; }
+
+
+footer div ul li a{ 
+                    text-decoration: none;
+                    color: #C2185B;font-weight: bold;
+                   background-color: #F8BBD0;
+                   border: #C2185B solid 3px;
+                   border-radius: 5px;
+                   padding: auto;
+                   margin: 1rem;
+                   
+}
+
+.footerDos{ color: #C2185B;font-weight: bold;
+            background-color: #F8BBD0;
+            border: #C2185B solid 0.5rem;
+            border-radius: 5px;
+            padding: auto;
+            margin: 1rem;
+
+
+}
+
+.bordeRojo{ border: 2px solid red;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 20px ;
+            margin-top: 4rem;
+        }
+            
+.cajaFija{  background-color: #F8BBD0;
+            padding: 5px;
+            padding-top: 7px;
+            position: fixed;
+            bottom: 40px;
+            right: 0px;
+            border-radius: 25px 10px;
+            color: white;
+            border: 3px solid #C2185B;
+            
+
+}            
+
+.iconoCajaFija{ color: #C2185B;
+                font-size: 5rem;
+
+                }
+
+.movimientoCajaFija{    transform: translateY(-1rem);
+                        transition: transform 1s;
+
+                    }
+
+.movimientoCajaFija:hover{  transform:translate(-1rem,-1rem) scale(1.1,1.1);
+                            color: white;
+                            border: 3px solid #C2185B;
+                            background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+                            
+                        }
+
+
+.resaltarTexto{ font-weight: bold;
+                color: #C2185B;
+                font-size: 2rem;
+                
+                }
+
+.movimientoSeisImagenes{    transform:translate(0.1rem,0.1rem);
+                            transition: transform 1s, background-color 1s;
+                            cursor: pointer;
+                        
+                           
+                        }
+
+.movimientoSeisImagenes:hover{      transform:translate(0.1rem,0.1rem) scale(1.05,1.05);
+                                    background-color: #F8BBD0;
+                                    
+                                
+                            }
+
+.pieDePagina{   
+                
+                border-top: rgba(255, 255, 255, 0.623) 4px solid;
+                border-radius: 2rem;
+                
+            }
+
+.pieDerechos{   
+                text-align: center;
+                color: #C2185B;
+                font-weight: bold;
+        }
+
+.formularioImagen{display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    
+
+}
+
+.formularioCaracteristicas{ margin: 20px;
+                            
+
+                           
+                            }
+
+.imagenFormulario{ border-radius: 20px;
+
+}
+
+.imagenEjemploUno{  width: 100%;
+                    height:70vh;
+                    object-fit: cover;
+                    background: repeat no-repeat;
+                    background-size: cover;
+                    background-image: url(../assets/images/imagen_header_2.jpg);
+                    background-position: center;
+                    border-radius: 3rem;
+                    border: 1em solid white;
+                    
+                   
+                    
+                    }
+
+.imagenEjemploDos{  width: 100%;
+                    height:70vh;
+                    object-fit: cover;
+                    background: repeat no-repeat;
+                    background-size: cover;
+                    background-image: url(../assets/images/dulces/muestra.jpg);
+                    margin-bottom: 50px;
+                    border-radius: 3rem;
+                    border: 1em solid white;
+               
+                    }
+                    
+
+.imagenEjemploTres{ width: 100%;
+                    height:70vh;
+                    object-fit: cover;
+                    background: repeat no-repeat;
+                    background-size: cover;
+                    background-image: url(../assets/images/tortas/muestra.jpg);
+                    background-position:  center;
+                    margin-bottom: 50px;
+                    border-radius: 3rem;
+                    border: 1em solid white;
+                    
+                    }
+                    
+.imagenEjemploCuatro{   
+                        width: 100%;
+                        height:70vh;
+                        object-fit: cover;
+                        background: repeat no-repeat;
+                        background-size: cover;
+                        background-image: url(../assets/images/especial/muestra.jpg);
+                        background-position: center;
+                        margin-bottom: 50px;
+                        border-radius: 3rem;
+                        border: 1em solid white;
+                       
+                    }
+
+.imagenMuestraCinco{    width: 100%;
+                        height:70vh;
+                        object-fit: cover;
+                        background: repeat no-repeat;
+                        background-size: cover;
+                        background-image: url(../assets/images/contacto/muestra.jpg);
+                        background-position: center;
+                        margin-bottom: 50px;
+                        border-radius: 3rem;
+                        border: 1em solid white;
+
+}
+
+.margenTitulo{  margin-left: 50px;
+                position: relative;
+                top: 30px;
+            
+            }
+
+ 
+.tituloNosotros{margin-left: 30px;
+                margin-top: 20px;
+                }
+
+.textoNosotros{ font-weight: bold;
+                margin-right: 30px;
+                margin-left: 30px;
+                margin-bottom: 20px;
+                
+                }
+
+
+.contenedorEnviar{  background-color: #F8BBD0;
+                    border: #C2185B solid 0.5rem;
+                    border-radius: 3px;
+                    padding: 5px;
+                    color: #C2185B;
+                    font-weight: bold;
+                    margin-top: 1rem;
+                    
+
+                }
+
+.bordeFormulario{   border: #C2185B solid 3px;
+                    border-radius: 3px;
+                    margin-top: 2rem;
+
+                }
+
+
+
+
+.iconosFooter{ color: #C2185B;
+                font-size: 3rem;
+                margin: 10px;
+                
+            }
+
+.centrarIconos{ display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-content: center;
+                }
+
+
+#menuFooterMovimiento:hover{    background-color: #C2185B;
+                                color: white;
+                                border: #F8BBD0 solid 0.5rem;
+                                
+                                text-decoration: none;
+                            }
+               
+.movimientoImagenesInicio{      transform:translate(0.1rem,0.1rem);
+                                transition: transform 1s, background-color 1s;
+                        }
+
+.movimientoImagenesInicio:hover{ transform:translate(0.1rem,0.1rem) scale(1.05,1.05);
+                                background-color: #F8BBD0;
+                                
+                                }
+
+.rotarIcono{    transform:rotate(-25deg);
+                
+
+            }
+.rotarIconos:hover{ transform:rotate(-25deg);
+                    transition: 1s;
+
+            }
+
+.navbar .navbar-nav .nav-link{  font-family: 'Roboto Condensed', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                border: #C2185B solid 0.5rem;
+                background-color: #F8BBD0 ;
+                color: #C2185B ;
+                margin: 1rem;
+                border-radius: 1rem;
+
+            }
+
+.logoUno{border: 3px solid #C2185B;
+border-radius: 1em;
+}
+
+.navbar-nav{text-align: center;
+}
+
+.navbar-toggler-icon{width: 4em;
+    height: 4em;}
+
+#boton{ background-color: white;
+border: #C2185B solid 0.5rem;
+
+}
+
+
+
+.card {
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: rgb(231, 219, 147);
+background-clip: border-box;
+border: 0.80rem solid #C2185B;
+border-radius: 1rem;
+
+
+}
+
+
+.card-body{ border-top: 0.50rem solid white;}
+
+
+
+.card-img-top{ object-fit: cover;}
+
+
+/*media queris*/
+
+@media screen and (max-width: 768px) {
+
+.tituloBlanco{ color: white;}
+.cajaFija{ display: none;}
+    
+.letrasBlancasInicio{font-size: 2rem;}
+
+h1{ font-size: 5rem;
+    color: white;
+    text-align: center;}
+
+
+
+}
