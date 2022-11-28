@@ -108,229 +108,6 @@ header #menuMovimiento:hover {
       border-color: #F8BBD0;
       outline: 0; }
 
-.pieDePagina {
-  border-top: rgba(255, 255, 255, 0.623) 4px solid;
-  border-radius: 2rem; }
-  .pieDePagina .cajaFija {
-    background-color: #C2185B;
-    padding: 5px;
-    padding-top: 7px;
-    position: fixed;
-    bottom: 40px;
-    right: 0px;
-    border-radius: 25px 10px;
-    color: white;
-    border: 3px solid #C2185B; }
-  .pieDePagina .iconoCajaFija {
-    color: white;
-    font-size: 5rem; }
-  .pieDePagina .movimientoCajaFija {
-    transform: translateY(-1rem);
-    transition: transform 1s; }
-    .pieDePagina .movimientoCajaFija:hover {
-      transform: translate(-1rem, -1rem) scale(1.1, 1.1);
-      color: white;
-      border: 3px solid #C2185B;
-      background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%); }
-  .pieDePagina .centrarIconos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center; }
-    .pieDePagina .centrarIconos .iconosFooter {
-      color: #C2185B;
-      font-size: 3rem;
-      margin: 10px; }
-      .pieDePagina .centrarIconos .iconosFooter:hover {
-        transform: rotate(-25deg);
-        transition: 1s; }
-    .pieDePagina .centrarIconos .rotarIcono {
-      transform: rotate(-25deg); }
-  .pieDePagina .footerDos {
-    color: #C2185B;
-    font-weight: bold;
-    background-color: #F8BBD0;
-    border: #C2185B solid 0.5rem;
-    border-radius: 5px;
-    padding: auto;
-    margin: 1rem; }
-  .pieDePagina #menuFooterMovimiento:hover {
-    background-color: #C2185B;
-    color: white;
-    border: #F8BBD0 solid 0.5rem;
-    text-decoration: none; }
-  .pieDePagina .pieDerechos {
-    text-align: center;
-    color: #C2185B;
-    font-weight: bold; }
-
-/*quiero aclarar que hay muchas clases que deje de utilizar por boostrap y que no tuve tiempo de eliminarlas, ya para la entrega final espero poder hacerlo*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 62.5%; }
-
-body {
-  background-image: linear-gradient(to right top, #e0ee83, #ffcd77, #ffac91, #ff98bc, #e397e3); }
-
-/*#menuMovimiento:hover{  color: white;
-                        background-color: #C2185B;
-                        border: #F8BBD0 solid 0.5rem;
-
-                    }*/
-section div h3 {
-  color: red;
-  text-decoration: underline; }
-
-/*.textoRojo{color: red;}*/
-h1 {
-  color: #C2185B;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 5rem; }
-
-h2 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  color: #C2185B;
-  text-decoration: none; }
-
-p {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 300 bold;
-  font-size: 2rem;
-  color: black; }
-
-h3 {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 3rem;
-  font-style: italic;
-  line-height: 1.6; }
-
-/*.cursiva{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
-    font-style: italic;
-}*/
-a {
-  text-decoration: none;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 300;
-  font-size: 2rem; }
-
-form {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 300 bold;
-  font-size: 6rem; }
-
-/*.espaciado{margin-top: 1rem;
-            font-size: 3rem;
-            font-weight: bold;
-        text-align: center;
-        justify-content: center;}*/
-/*.form-check-input:checked {
-    background-color: #C2185B;
-    border-color: #F8BBD0 }*/
-/*.form-check-input:focus {
-    border-color: #F8BBD0;
-    outline: 0; }*/
-/*footer div ul li a{ 
-                    text-decoration: none;
-                    color: #C2185B;font-weight: bold;
-                   background-color: #F8BBD0;
-                   border: #C2185B solid 3px;
-                   border-radius: 5px;
-                   padding: auto;
-                   margin: 1rem;
-                   
-}*/
-/*.footerDos{ color: #C2185B;font-weight: bold;
-            background-color: #F8BBD0;
-            border: #C2185B solid 0.5rem;
-            border-radius: 5px;
-            padding: auto;
-            margin: 1rem;
-
-
-}*/
-/*.bordeRojo{ border: 2px solid red;
-            padding: 5px;
-            border-radius: 5px;
-            margin: 20px ;
-            margin-top: 4rem;
-        }*/
-/*.cajaFija{  background-color: #F8BBD0;
-            padding: 5px;
-            padding-top: 7px;
-            position: fixed;
-            bottom: 40px;
-            right: 0px;
-            border-radius: 25px 10px;
-            color: white;
-            border: 3px solid #C2185B;
-            
-
-} */
-/*.iconoCajaFija{ color: #C2185B;
-                font-size: 5rem;
-
-                }*/
-/*.movimientoCajaFija{    transform: translateY(-1rem);
-                        transition: transform 1s;
-
-                    }*/
-/*.movimientoCajaFija:hover{  transform:translate(-1rem,-1rem) scale(1.1,1.1);
-                            color: white;
-                            border: 3px solid #C2185B;
-                            background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-                            
-                        }*/
-.resaltarTexto {
-  font-weight: bold;
-  color: #C2185B;
-  font-size: 2rem; }
-
-/*.movimientoSeisImagenes{    transform:translate(0.1rem,0.1rem);
-                            transition: transform 1s, background-color 1s;
-                            cursor: pointer;
-                        
-                           
-                        }*/
-/*.movimientoSeisImagenes:hover{      transform:translate(0.1rem,0.1rem) scale(1.05,1.05);
-                                    background-color: #F8BBD0;
-                                    
-                                
-                            }*/
-/*.pieDePagina{   
-                
-                border-top: rgba(255, 255, 255, 0.623) 4px solid;
-                border-radius: 2rem;
-                
-            }*/
-/*.pieDerechos{   
-                text-align: center;
-                color: #C2185B;
-                font-weight: bold;
-        }*/
-/*.formularioImagen{display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    flex-wrap: wrap;
-                    
-
-}*/
-/*.formularioCaracteristicas{ margin: 20px;
-                            
-
-                           
-                            }*/
-/*.imagenFormulario{ border-radius: 20px;
-
-}*/
 .imagenEjemploUno {
   width: 100%;
   height: 70vh;
@@ -389,6 +166,111 @@ form {
   border-radius: 3rem;
   border: 1em solid white; }
 
+.pieDePagina {
+  border-top: rgba(255, 255, 255, 0.623) 4px solid;
+  border-radius: 2rem; }
+  .pieDePagina .cajaFija {
+    background-color: #C2185B;
+    padding: 5px;
+    padding-top: 7px;
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    border-radius: 25px 10px;
+    color: white;
+    border: 3px solid #C2185B; }
+  .pieDePagina .iconoCajaFija {
+    color: white;
+    font-size: 5rem; }
+  .pieDePagina .movimientoCajaFija {
+    transform: translateY(-1rem);
+    transition: transform 1s; }
+    .pieDePagina .movimientoCajaFija:hover {
+      transform: translate(-1rem, -1rem) scale(1.1, 1.1);
+      color: white;
+      border: 3px solid #C2185B;
+      background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%); }
+  .pieDePagina .centrarIconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center; }
+    .pieDePagina .centrarIconos .iconosFooter {
+      color: #C2185B;
+      font-size: 3rem;
+      margin: 10px; }
+      .pieDePagina .centrarIconos .iconosFooter:hover {
+        transform: rotate(-25deg);
+        transition: 1s; }
+    .pieDePagina .centrarIconos .rotarIcono {
+      transform: rotate(-25deg); }
+  .pieDePagina .footerDos {
+    color: #C2185B;
+    font-weight: bold;
+    background-color: #F8BBD0;
+    border: #C2185B solid 0.5rem;
+    border-radius: 5px;
+    padding: auto;
+    margin: 1rem; }
+  .pieDePagina #menuFooterMovimiento:hover {
+    background-color: #C2185B;
+    color: white;
+    border: #F8BBD0 solid 0.5rem;
+    text-decoration: none; }
+  .pieDePagina .pieDerechos {
+    text-align: center;
+    color: #C2185B;
+    font-weight: bold; }
+
+body {
+  background-image: linear-gradient(to right top, #e0ee83, #ffcd77, #ffac91, #ff98bc, #e397e3); }
+
+section div h3 {
+  color: red;
+  text-decoration: underline; }
+
+h1 {
+  color: #C2185B;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 5rem; }
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #C2185B;
+  text-decoration: none; }
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300 bold;
+  font-size: 2rem;
+  color: black; }
+
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: italic;
+  line-height: 1.6; }
+
+a {
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 2rem; }
+
+form {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300 bold;
+  font-size: 6rem; }
+
+.resaltarTexto {
+  font-weight: bold;
+  color: #C2185B;
+  font-size: 2rem; }
+
 .margenTitulo {
   margin-left: 50px;
   position: relative;
@@ -404,99 +286,6 @@ form {
   margin-left: 30px;
   margin-bottom: 20px; }
 
-/*.contenedorEnviar{  background-color: #F8BBD0;
-                    border: #C2185B solid 0.5rem;
-                    border-radius: 3px;
-                    padding: 5px;
-                    color: #C2185B;
-                    font-weight: bold;
-                    margin-top: 1rem;
-                    
-
-                }*/
-/*.bordeFormulario{   border: #C2185B solid 3px;
-                    border-radius: 3px;
-                    margin-top: 2rem;
-
-                }*/
-/*.iconosFooter{ color: #C2185B;
-                font-size: 3rem;
-                margin: 10px;
-                
-            }*/
-/*.centrarIconos{ display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-content: center;
-                }*/
-/*#menuFooterMovimiento:hover{    background-color: #C2185B;
-                                color: white;
-                                border: #F8BBD0 solid 0.5rem;
-                                
-                                text-decoration: none;
-                            }*/
-/*.movimientoImagenesInicio{      transform:translate(0.1rem,0.1rem);
-                                transition: transform 1s, background-color 1s;
-                        }*/
-/*.movimientoImagenesInicio:hover{ transform:translate(0.1rem,0.1rem) scale(1.05,1.05);
-                                background-color: #F8BBD0;
-                                
-                                }*/
-/*.rotarIcono{    transform:rotate(-25deg);
-                
-
-            }*/
-/*.rotarIconos:hover{ transform:rotate(-25deg);
-                    transition: 1s;
-
-            }*/
-/*.navbar .navbar-nav .nav-link{  font-family: 'Roboto Condensed', sans-serif;
-                                font-weight: bold;
-                                font-size: 2rem;
-                                border: #C2185B solid 0.5rem;
-                                background-color: #F8BBD0 ;
-                                color: #C2185B ;
-                                margin: 1rem;
-                                border-radius: 1rem;
-
-            }*/
-/*.logoUno{border: 3px solid #C2185B;
-border-radius: 1em;
-}*/
-/*.navbar-nav{text-align: center;
-}*/
-/*.navbar-toggler-icon{width: 4em;
-                    height: 4em;}*/
-/*#boton{ background-color: white;
-border: #C2185B solid 0.5rem;
-
-}*/
-/*.card {
-position: relative;
-display: flex;
-flex-direction: column;
-min-width: 0;
-word-wrap: break-word;
-background-color: rgb(231, 219, 147);
-background-clip: border-box;
-border: 0.80rem solid #C2185B;
-border-radius: 1rem;
-}*/
-/*.card-body{ border-top: 0.50rem solid white;}*/
-/*.card-img-top{ object-fit: cover;}*/
-/*media queris*/
-@media screen and (max-width: 768px) {
-  .tituloBlanco {
-    color: white; }
-  .cajaFija {
-    display: none; }
-  .letrasBlancasInicio {
-    font-size: 2rem; }
-  h1 {
-    font-size: 5rem;
-    color: white;
-    text-align: center; } }
-
 .bordeRojo {
   border: 2px solid red;
   padding: 5px;
@@ -511,238 +300,184 @@ border-radius: 1rem;
     font-size: 2rem;
     font-style: italic; }
 
-/*footer*/
-/*footer*/
-/*footer*/
-/*footer*/
-/*footer*/
-/*footer*/
-/*footer*/
-/*footer*/
-/*.pieDePagina{   
+@media screen and (max-width: 768px) {
+  .tituloBlanco {
+    color: white; }
+  .cajaFija {
+    display: none; }
+  .letrasBlancasInicio {
+    font-size: 2rem; }
+  h1 {
+    font-size: 5rem;
+    color: white;
+    text-align: center; } }
+
+/*body{background-image: linear-gradient(to right top, #e0ee83, #ffcd77, #ffac91, #ff98bc, #e397e3);}*/
+/*section div h3{ color: $color-rojo; 
+                text-decoration: $subrayado;}
+
+
+h1{color: $color-primario; 
+    font-family: $tipografia-general;
+    font-weight: 400;
+    font-size: 5rem;
+    
+}
+
+h2{
+    font-family: $tipografia-general;
+    font-weight:  $negrita;
+    font-size: 3rem;
+    color: $color-primario;
+    text-decoration: $texto-sin-decoracion;
+    
+}
+
+p{
+    font-family: $tipografia-general;
+    font-weight: 300 $negrita;
+    font-size: 2rem;
+    color: $color-de-letras;
+
+}
+
+h3{
+    font-family: $tipografia-general;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+
+
+a{ text-decoration: $texto-sin-decoracion;
+    font-family: $tipografia-general;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+form{
+    font-family: $tipografia-general;
+    font-weight: 300 $negrita;
+    font-size: 6rem;
+}
+
+
+
+.resaltarTexto{ font-weight: $negrita;
+                color: $color-primario;
+                font-size: 2rem;
                 
-            border-top: rgba(255, 255, 255, 0.623) 4px solid;
-            border-radius: 2rem;
-            
-            .cajaFija{  background-color: $color-primario;
-                        padding: 5px;
-                        padding-top: 7px;
-                        position: fixed;
-                        bottom: 40px;
-                        right: 0px;
-                        border-radius: 25px 10px;
-                        color: $color-blanco;
-                        border: 3px solid $color-primario;
-
-                       }
-
-            .iconoCajaFija{ color: $color-blanco;
-                            font-size: 5rem;
-                        }
-            
-            .movimientoCajaFija{    transform: translateY(-1rem);
-                                    transition: transform 1s;
-                        
-                        &:hover{        transform:translate(-1rem,-1rem) scale(1.1,1.1);
-                                        color: $color-blanco;
-                                        border: 3px solid $color-primario;
-                                        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-                                        
-                                    }
-
-                                }  
-            .centrarIconos{ display: flex;
-                            flex-direction: row;
-                            justify-content: center;
-                            align-content: center;
-                        .iconosFooter{  color: $color-primario;
-                                        font-size: 3rem;
-                                        margin: 10px;
-                                        
-                                        &:hover{ transform:rotate(-25deg);
-                                                transition: 1s;
-                        
-                                                }      
-                                    }
-                                .rotarIcono{    transform:rotate(-25deg);
-                                   
-                                   }
-                                
-                                
-
-                            }
-            .footerDos{         color: $color-primario;
-                                font-weight: $negrita;
-                                background-color: $color-secundario;
-                                border: $color-primario solid 0.5rem;
-                                border-radius: 5px;
-                                padding: auto;
-                                margin: 1rem;
-                        }
-                
-            #menuFooterMovimiento:hover{        background-color: $color-primario;
-                                                color: $color-blanco;
-                                                border: $color-secundario solid 0.5rem;
-                                                text-decoration: $texto-sin-decoracion;
-                                        }
+                }*/
+/*.imagenEjemploUno{  width: 100%;
+                    height:70vh;
+                    object-fit: cover;
+                    background: repeat no-repeat;
+                    background-size: cover;
+                    background-image: url(../assets/images/imagen_header_2.jpg);
+                    background-position: center;
+                    border-radius: 3rem;
+                    border: 1em solid $color-blanco;
                     
-            .pieDerechos{   
-                            text-align: center;
-                            color: $color-primario;
-                            font-weight: $negrita;
-                        }    
-            
-            }*/
-/*header*/
-/*header*/
-/*header*/
-/*header*/
-/*header*/
-/*header*/
-/*header*/
-/*header{
-        .logoUno{   border: 3px solid $color-primario;
-                    border-radius: 1em;
-                }
-
-        #boton{     background-color: $color-blanco;
-                    border: $color-primario solid 0.5rem;
+                   
                     
-                .navbar-toggler-icon{   width: 4em;
-                                        height: 4em;}
-                
+                    }
+
+.imagenEjemploDos{  width: 100%;
+                    height:70vh;
+                    object-fit: cover;
+                    background: repeat no-repeat;
+                    background-size: cover;
+                    background-image: url(../assets/images/dulces/muestra.jpg);
+                    margin-bottom: 50px;
+                    border-radius: 3rem;
+                    border: 1em solid $color-blanco;
+               
+                    }
+                    
+
+.imagenEjemploTres{ width: 100%;
+                    height:70vh;
+                    object-fit: cover;
+                    background: repeat no-repeat;
+                    background-size: cover;
+                    background-image: url(../assets/images/tortas/muestra.jpg);
+                    background-position:  center;
+                    margin-bottom: 50px;
+                    border-radius: 3rem;
+                    border: 1em solid $color-blanco;
+                    
+                    }
+                    
+.imagenEjemploCuatro{   
+                        width: 100%;
+                        height:70vh;
+                        object-fit: cover;
+                        background: repeat no-repeat;
+                        background-size: cover;
+                        background-image: url(../assets/images/especial/muestra.jpg);
+                        background-position: center;
+                        margin-bottom: 50px;
+                        border-radius: 3rem;
+                        border: 1em solid $color-blanco;
+                       
+                    }
+
+.imagenMuestraCinco{    width: 100%;
+                        height:70vh;
+                        object-fit: cover;
+                        background: repeat no-repeat;
+                        background-size: cover;
+                        background-image: url(../assets/images/contacto/muestra.jpg);
+                        background-position: center;
+                        margin-bottom: 50px;
+                        border-radius: 3rem;
+                        border: 1em solid $color-blanco;
+
+}*/
+/*.margenTitulo{  margin-left: 50px;
+                position: relative;
+                top: 30px;
+            
             }
-            
-        .navbar .navbar-nav{    text-align: center; 
 
-                                    .nav-link{  font-family: $tipografia-general;
-                                                font-weight: $negrita;
-                                                font-size: 2rem;
-                                                border: $color-primario solid 0.5rem;
-                                                background-color: $color-secundario;
-                                                color: $color-primario ;
-                                                margin: 1rem;
-                                                border-radius: 1rem;
-
-                                            }
-                            }
-        
-        #menuMovimiento:hover{  color: $color-blanco;
-                                background-color: $color-primario;
-                                border: $color-secundario solid 0.5rem;
-        
-                            }
-                    
-           
-
-        
-                
-       
-        }*/
-/*main*/
-/*main*/
-/*main*/
-/*main*/
-/*main*/
-/*main*/
-/*main*/
-/*.movimientoSeisImagenes{    transform:translate(0.1rem,0.1rem);
-                            transition: transform 1s, background-color 1s;
-                            cursor: pointer;
-                            
-                            &:hover{      transform:translate(0.1rem,0.1rem) scale(1.05,1.05);
-                                            background-color: $color-secundario;
-                                
-                            
-                                    }
-   
-                        }
-                            
-.movimientoImagenesInicio{      transform:translate(0.1rem,0.1rem);
-                                transition: transform 1s, background-color 1s;
-                                    &:hover{    transform:translate(0.1rem,0.1rem) scale(1.05,1.05);
-                                                background-color: $color-secundario;
-                                    
-                                            }
-                        
-                        }
-
-.card {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        background-color: rgb(231, 219, 147);
-        background-clip: border-box;
-        border: 0.80rem solid $color-primario;
-        border-radius: 1rem;
-            .card-img-top{ object-fit: cover;}
-            .card-body{ border-top: 0.50rem solid $color-blanco;}
-    }*/
-/*formulario*/
-/*formulario*/
-/*formulario*/
-/*formulario*/
-/*formulario*/
-/*formulario*/
-/*.formularioImagen{  
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    flex-wrap: wrap;
-                    .imagenFormulario{ border-radius: 20px;
-                                        }
-
+ 
+.tituloNosotros{margin-left: 30px;
+                margin-top: 20px;
                 }
 
+.textoNosotros{ font-weight: $negrita;
+                margin-right: 30px;
+                margin-left: 30px;
+                margin-bottom: 20px;
+                
+                }*/
+/*media queris*/
+/*@media screen and (max-width: 768px) {
+
+.tituloBlanco{ color: $color-blanco;}
+.cajaFija{ display: none;}
+    
+.letrasBlancasInicio{font-size: 2rem;}
+
+h1{ font-size: 5rem;
+    color: $color-blanco;
+    text-align: center;}
 
 
-           
-.formularioCaracteristicas{     margin: 20px;
-                            
-                .bordeFormulario{   border: $color-primario solid 3px;
-                                    border-radius: 3px;
-                                    margin-top: 2rem;
-        
-                                }
-                
-                .contenedorEnviar{  background-color: $color-secundario;
-                                    border: $color-primario solid 0.5rem;
-                                    border-radius: 3px;
-                                    padding: 5px;
-                                    color: $color-primario;
-                                    font-weight: $negrita;
-                                    margin-top: 1rem;
-                                    
-                
-                                }
-                #menuMovimientoFormulario:hover{  color: $color-blanco;
-                                    background-color: $color-primario;
-                                    border: $color-secundario solid 0.5rem;
-            
-                                }
-                                
-                .espaciado{     margin-top: 1rem;
-                                font-size: 3rem;
-                                font-weight: $negrita;
-                                text-align: center;
-                                justify-content: center;
-                                
-                                
-                                .form-check-input:checked {
-                                    background-color: $color-primario;
-                                    border-color: $color-secundario; }
-                                  
-                                .form-check-input:focus {
-                                    border-color: $color-secundario;
-                                    outline: 0; }
-                            
-                            
-                            
-                            }
-        
-                
-        
-                                   
-                        }*/
+
+}*/
+/*.bordeRojo{ border: 2px solid $color-rojo;
+            padding: 5px;
+            border-radius: 5px;
+            margin: 20px ;
+            margin-top: 4rem;
+            .textoRojo{color: $color-rojo;}
+            .cursiva{
+                font-family: $tipografia-general;
+                font-weight: 300;
+                font-size: 2rem;
+                font-style: italic;
+            }
+        }*/

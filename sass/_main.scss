@@ -96,3 +96,29 @@ flex-wrap: wrap;
 
            
 }
+
+.imagenEjemploUno{  width: 100%;
+    @include imagenEjemplos (white);
+    background-image: url(../assets/images/imagen_header_2.jpg);
+   }
+
+.imagenEjemploDos{  width: 100%;
+    @include imagenEjemplos (white);
+    background-image: url(../assets/images/dulces/muestra.jpg);
+    }
+    
+
+.imagenEjemploTres{ width: 100%;
+    @include imagenEjemplos (white);
+    background-image: url(../assets/images/tortas/muestra.jpg);
+   }
+    
+.imagenEjemploCuatro{   
+    @include imagenEjemplos (white);
+    background-image: url(../assets/images/especial/muestra.jpg);
+    }
+
+.imagenMuestraCinco{    width: 100%;
+    @include imagenEjemplos (white);
+    background-image: url(../assets/images/contacto/muestra.jpg);
+    }

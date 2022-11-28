@@ -1,0 +1,91 @@
+body{background-image: linear-gradient(to right top, #e0ee83, #ffcd77, #ffac91, #ff98bc, #e397e3);}
+
+section div h3{ color: $color-rojo; 
+    text-decoration: $subrayado;}
+
+
+h1{color: $color-primario; 
+font-family: $tipografia-general;
+font-weight: 400;
+font-size: 5rem;
+
+}
+
+h2{
+font-family: $tipografia-general;
+font-weight:  $negrita;
+font-size: 3rem;
+color: $color-primario;
+text-decoration: $texto-sin-decoracion;
+
+}
+
+p{
+font-family: $tipografia-general;
+font-weight: 300 $negrita;
+font-size: 2rem;
+color: $color-de-letras;
+
+}
+
+h3{
+font-family: $tipografia-general;
+font-weight: 400;
+font-size: 3rem;
+font-style: italic;
+line-height: 1.6;
+}
+
+
+
+a{ text-decoration: $texto-sin-decoracion;
+font-family: $tipografia-general;
+font-weight: 300;
+font-size: 2rem;
+}
+
+form{
+font-family: $tipografia-general;
+font-weight: 300 $negrita;
+font-size: 6rem;
+}
+
+
+
+.resaltarTexto{ font-weight: $negrita;
+    color: $color-primario;
+    font-size: 2rem;
+    
+    }
+
+.margenTitulo{  margin-left: 50px;
+    position: relative;
+    top: 30px;
+
+}
+
+
+.tituloNosotros{margin-left: 30px;
+    margin-top: 20px;
+    }
+
+.textoNosotros{ font-weight: $negrita;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+    }
+
+.bordeRojo{ border: 2px solid $color-rojo;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px ;
+    margin-top: 4rem;
+    .textoRojo{color: $color-rojo;}
+    .cursiva{
+        font-family: $tipografia-general;
+        font-weight: 300;
+        font-size: 2rem;
+        font-style: italic;
+    }
+}
