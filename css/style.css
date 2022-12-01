@@ -110,37 +110,42 @@ header #menuMovimiento:hover {
 
 .imagenEjemploUno {
   width: 100%;
+  width: 100%;
   height: 70vh;
   object-fit: cover;
   background: repeat no-repeat;
   background-size: cover;
-  background-image: url(../assets/images/imagen_header_2.jpg);
   background-position: center;
+  margin-bottom: 50px;
   border-radius: 3rem;
-  border: 1em solid white; }
+  border: 1em solid white;
+  background-image: url(../assets/images/imagen_header_2.jpg); }
 
 .imagenEjemploDos {
   width: 100%;
-  height: 70vh;
-  object-fit: cover;
-  background: repeat no-repeat;
-  background-size: cover;
-  background-image: url(../assets/images/dulces/muestra.jpg);
-  margin-bottom: 50px;
-  border-radius: 3rem;
-  border: 1em solid white; }
-
-.imagenEjemploTres {
   width: 100%;
   height: 70vh;
   object-fit: cover;
   background: repeat no-repeat;
   background-size: cover;
-  background-image: url(../assets/images/tortas/muestra.jpg);
   background-position: center;
   margin-bottom: 50px;
   border-radius: 3rem;
-  border: 1em solid white; }
+  border: 1em solid white;
+  background-image: url(../assets/images/dulces/muestra.jpg); }
+
+.imagenEjemploTres {
+  width: 100%;
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  background: repeat no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  border-radius: 3rem;
+  border: 1em solid white;
+  background-image: url(../assets/images/tortas/muestra.jpg); }
 
 .imagenEjemploCuatro {
   width: 100%;
@@ -148,23 +153,24 @@ header #menuMovimiento:hover {
   object-fit: cover;
   background: repeat no-repeat;
   background-size: cover;
-  background-image: url(../assets/images/especial/muestra.jpg);
   background-position: center;
   margin-bottom: 50px;
   border-radius: 3rem;
-  border: 1em solid white; }
+  border: 1em solid white;
+  background-image: url(../assets/images/especial/muestra.jpg); }
 
 .imagenMuestraCinco {
+  width: 100%;
   width: 100%;
   height: 70vh;
   object-fit: cover;
   background: repeat no-repeat;
   background-size: cover;
-  background-image: url(../assets/images/contacto/muestra.jpg);
   background-position: center;
   margin-bottom: 50px;
   border-radius: 3rem;
-  border: 1em solid white; }
+  border: 1em solid white;
+  background-image: url(../assets/images/contacto/muestra.jpg); }
 
 .pieDePagina {
   border-top: rgba(255, 255, 255, 0.623) 4px solid;
@@ -310,174 +316,14 @@ form {
   h1 {
     font-size: 5rem;
     color: white;
-    text-align: center; } }
-
-/*body{background-image: linear-gradient(to right top, #e0ee83, #ffcd77, #ffac91, #ff98bc, #e397e3);}*/
-/*section div h3{ color: $color-rojo; 
-                text-decoration: $subrayado;}
-
-
-h1{color: $color-primario; 
-    font-family: $tipografia-general;
-    font-weight: 400;
-    font-size: 5rem;
-    
-}
-
-h2{
-    font-family: $tipografia-general;
-    font-weight:  $negrita;
-    font-size: 3rem;
-    color: $color-primario;
-    text-decoration: $texto-sin-decoracion;
-    
-}
-
-p{
-    font-family: $tipografia-general;
-    font-weight: 300 $negrita;
-    font-size: 2rem;
-    color: $color-de-letras;
-
-}
-
-h3{
-    font-family: $tipografia-general;
-    font-weight: 400;
-    font-size: 3rem;
-    font-style: italic;
-    line-height: 1.6;
-}
-
-
-
-a{ text-decoration: $texto-sin-decoracion;
-    font-family: $tipografia-general;
-    font-weight: 300;
-    font-size: 2rem;
-}
-
-form{
-    font-family: $tipografia-general;
-    font-weight: 300 $negrita;
-    font-size: 6rem;
-}
-
-
-
-.resaltarTexto{ font-weight: $negrita;
-                color: $color-primario;
-                font-size: 2rem;
-                
-                }*/
-/*.imagenEjemploUno{  width: 100%;
-                    height:70vh;
-                    object-fit: cover;
-                    background: repeat no-repeat;
-                    background-size: cover;
-                    background-image: url(../assets/images/imagen_header_2.jpg);
-                    background-position: center;
-                    border-radius: 3rem;
-                    border: 1em solid $color-blanco;
-                    
-                   
-                    
-                    }
-
-.imagenEjemploDos{  width: 100%;
-                    height:70vh;
-                    object-fit: cover;
-                    background: repeat no-repeat;
-                    background-size: cover;
-                    background-image: url(../assets/images/dulces/muestra.jpg);
-                    margin-bottom: 50px;
-                    border-radius: 3rem;
-                    border: 1em solid $color-blanco;
-               
-                    }
-                    
-
-.imagenEjemploTres{ width: 100%;
-                    height:70vh;
-                    object-fit: cover;
-                    background: repeat no-repeat;
-                    background-size: cover;
-                    background-image: url(../assets/images/tortas/muestra.jpg);
-                    background-position:  center;
-                    margin-bottom: 50px;
-                    border-radius: 3rem;
-                    border: 1em solid $color-blanco;
-                    
-                    }
-                    
-.imagenEjemploCuatro{   
-                        width: 100%;
-                        height:70vh;
-                        object-fit: cover;
-                        background: repeat no-repeat;
-                        background-size: cover;
-                        background-image: url(../assets/images/especial/muestra.jpg);
-                        background-position: center;
-                        margin-bottom: 50px;
-                        border-radius: 3rem;
-                        border: 1em solid $color-blanco;
-                       
-                    }
-
-.imagenMuestraCinco{    width: 100%;
-                        height:70vh;
-                        object-fit: cover;
-                        background: repeat no-repeat;
-                        background-size: cover;
-                        background-image: url(../assets/images/contacto/muestra.jpg);
-                        background-position: center;
-                        margin-bottom: 50px;
-                        border-radius: 3rem;
-                        border: 1em solid $color-blanco;
-
-}*/
-/*.margenTitulo{  margin-left: 50px;
-                position: relative;
-                top: 30px;
-            
-            }
-
- 
-.tituloNosotros{margin-left: 30px;
-                margin-top: 20px;
-                }
-
-.textoNosotros{ font-weight: $negrita;
-                margin-right: 30px;
-                margin-left: 30px;
-                margin-bottom: 20px;
-                
-                }*/
-/*media queris*/
-/*@media screen and (max-width: 768px) {
-
-.tituloBlanco{ color: $color-blanco;}
-.cajaFija{ display: none;}
-    
-.letrasBlancasInicio{font-size: 2rem;}
-
-h1{ font-size: 5rem;
-    color: $color-blanco;
-    text-align: center;}
-
-
-
-}*/
-/*.bordeRojo{ border: 2px solid $color-rojo;
-            padding: 5px;
-            border-radius: 5px;
-            margin: 20px ;
-            margin-top: 4rem;
-            .textoRojo{color: $color-rojo;}
-            .cursiva{
-                font-family: $tipografia-general;
-                font-weight: 300;
-                font-size: 2rem;
-                font-style: italic;
-            }
-        }*/
+    text-align: center; }
+  .imagenEjemploUno {
+    background-image: url(../assets/images/rsz_imagen_header_mq.jpg); }
+  .imagenMuestraCinco {
+    background-image: url(../assets/images/contacto/rsz_muestra_mq.jpg); }
+  .imagenEjemploDos {
+    background-image: url(../assets/images/dulces/rsz_1muestra_mq.jpg); }
+  .imagenEjemploTres {
+    background-image: url(../assets/images/tortas/rsz_3muestra_mq.jpg); }
+  .imagenEjemploCuatro {
+    background-image: url(../assets/images/especial/rsz_2muestra_mq.jpg); } }

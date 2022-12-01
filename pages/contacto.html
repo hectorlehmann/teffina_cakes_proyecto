@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="shortcut icon" href="../assets/images/iconos/kitchen-pack-cook-svgrepo-com.svg" type="image/png" />.
+        <meta name="keywords" content="inscripcion, miembros, noticias, contacto.">
+        <meta name="description" content="Completa el formulario y obten noticias y promociones.">
         <script src="https://kit.fontawesome.com/b10db57757.js" crossorigin="anonymous"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
@@ -17,14 +19,14 @@
         <header class="container-xxl">
             <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html"> <img class="logoUno" src="../assets/images/logo teffina cakes pixel.jpeg" alt="logo"></a>
+                  <a class="navbar-brand" href="../index.html"> <img class="logoUno" src="../assets/images/logo teffina cakes pixel.png" alt="logo" loading="lazy"></a>
                   <button class="navbar-toggler" id="boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ">
                       <li class="nav-item">
-                        <a class="nav-link" id="menuMovimiento" href="../index.html">Home</a>
+                        <a class="nav-link" id="menuMovimiento" href="../index.html">Inicio</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" id="menuMovimiento" href="./dulces.html">Dulces</a>
@@ -60,7 +62,13 @@
 
             <section class="formularioImagen container-xxl">
                 <div>
-                    <img class="imagenFormulario" src="../assets/images/contacto/contacto.jpeg" alt="imagen de tarta, alfajorcito de chocolate y conito de dulce de leche"> 
+                    <img class="imagenFormulario" 
+                            srcset="../assets/images/contacto/contacto.jpeg 400w,
+                                    ../assets/images/contacto/contacto.jpeg 650w"
+                            sizes=" (max-width: 575px) 400px,
+                                    (max-width: 767px) 650px,
+                                    700px"
+                            src="../assets/images/contacto/contacto.jpeg" alt="imagen de tarta, alfajorcito de chocolate y conito de dulce de leche" loading="lazy"> 
                 </div>
                 
                 <form class="formularioCaracteristicas">
@@ -80,7 +88,7 @@
                         
                         <div class="form-check form-switch espaciado">
                             <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                            <label class="form-check-label " for="flexSwitchCheckChecked">Suscribirse para mas noticias y promociones</label>
+                            <label class="form-check-label " for="flexSwitchCheckChecked">Suscribirse para más noticias y promociones</label>
                           </div>
 
                         <div>
@@ -98,7 +106,7 @@
             <section class="container-xxl" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="bordeRojo">
                     <h3>Aclaracion importante:</h3>
-                    <p class="textoRojo cursiva">Estas son solo algunas cosas que estamos ofreciendo, para mas informacion o para personalizar algun producto en especifico, te pedimos que te pongas en contacto con nosotros desde la pestaña "contacto" o mediante redes sociales y  por whatsapp, muchas gracias.  </p>
+                    <p class="textoRojo cursiva">Estas son solo algunas cosas que estamos ofreciendo, para más información o para personalizar algún producto en específico, te pedimos que te pongas en contacto con nosotros desde la pestaña "contacto" o mediante redes sociales y  por whatsapp, muchas gracias.</p>
                 </div>
             </section>
 

@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="shortcut icon" href="./assets/images/iconos/kitchen-pack-cook-svgrepo-com.svg" type="image/png" />.
+        <meta name="keywords" content="pasteleria, venta de tortas, cumpleaños, festividades, pymes">
+        <meta name="description" content="Nos dedicamos a la venta de tortas de cumpleaños, desayunos, pan dulce y budines para las fietas.">
         <script src="https://kit.fontawesome.com/b10db57757.js" crossorigin="anonymous"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
@@ -16,14 +18,14 @@
         <header class="container-xxl">
               <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container-fluid">
-                      <a class="navbar-brand" href="#"> <img class="logoUno" src="./assets/images/logo teffina cakes pixel.jpeg" alt="logo"></a>
+                      <a class="navbar-brand" href="#"> <img class="logoUno" src="./assets/images/logo teffina cakes pixel.png" alt="logo" loading="lazy"></a>
                       <button class="navbar-toggler" id="boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto ">
                       <li class="nav-item">
-                        <a class="nav-link" id="menuMovimiento" href="#">Home</a>
+                        <a class="nav-link" id="menuMovimiento" href="#">Inicio</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" id="menuMovimiento" href="./pages/dulces.html">Dulces</a>
@@ -43,7 +45,7 @@
              </nav>
           </header>
 
-        <main><!--las imagenes pueden que no tngan una resolucion mejor pero es porque son sacadas con celular y costo un poco poder ubicarlas, pasa lo mismo con las demas paginas que tienen cards-->
+        <main>
             <section class="imagenEjemploUno container-fluid">
                 <div>
                     <div class="margenTitulo">
@@ -53,8 +55,8 @@
             </section>
 
             <section class="container-xxl">
-                <p class="textoNosotros">Te damos la cordial bienvenida a este mundo de sabores que es Teffina cakes, donde podras elegir muchismas cosas ricas, desde galletas y alfajores, pasando por tortas personalizadas y por ultimo budines y pan dulces super deliciosos para las fiestas.
-                    Tambien realizamos desayunos riquisimos para ese dia o persona especial que tanto queres.</p>
+                <p class="textoNosotros">Te damos la cordial bienvenida a este mundo de sabores que es Teffina cakes, donde podrás elegir muchísimas cosas ricas, desde galletas y alfajores, pasando por tortas personalizadas y por ultimo budines y pan dulces súper deliciosos para las fiestas.
+                    También realizamos desayunos riquísimos para ese día o persona especial que tanto queres.</p>
             </section>
 
             
@@ -63,7 +65,12 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col" data-aos="fade-up" data-aos-duration="2000">
                   <div class="card h-100 movimientoImagenesInicio m-auto mb-4">
-                    <img src="./assets/images/dulces_uno.jpeg" class="card-img-top" alt="imagen de alfajor" width="100%" height="100%">
+                    <img  srcset="./assets/images/dulces_uno.jpeg 400w,
+                                ./assets/images/dulces_uno.jpeg 650w"
+                          sizes=" (max-width: 575px) 400px,
+                                  (max-width: 767px) 650px,
+                                  400px"
+                          src="./assets/images/dulces_uno.jpeg" class="card-img-top" alt="imagen de alfajor" width="100%" height="100%" loading="lazy">
                     <div class="card-body">
                       <h2 class="card-title">Dulces</h2>
                       <p class="resaltarTexto">Galletitas, alfajores y tartas.</p>
@@ -75,10 +82,15 @@
               <a href="./pages/tortas.html">
                 <div class="col" data-aos="fade-up" data-aos-duration="2000">
                   <div class="card h-100 movimientoImagenesInicio m-auto mb-4">
-                    <img src="./assets/images/Tortas_uno.jpeg" class="card-img-top" alt="imagen de torta" width="100%" height="100%">
+                    <img  srcset="./assets/images/Tortas_uno.jpeg 400w,
+                                ./assets/images/Tortas_uno.jpeg 650w"
+                          sizes=" (max-width: 575px) 400px,
+                                  (max-width: 767px) 650px,
+                                  400px"         
+                          src="./assets/images/Tortas_uno.jpeg" class="card-img-top" alt="imagen de torta" width="100%" height="100%" loading="lazy">
                     <div class="card-body">
                       <h2 class="card-title">Tortas</h2>
-                      <p class="resaltarTexto">Tortas personalizadas y clasicas.</p>
+                      <p class="resaltarTexto">Tortas personalizadas y clásicas.</p>
                     </div>
                   </div>
                 </div>
@@ -87,7 +99,12 @@
               <a href="./pages/tortas.html">
                 <div class="col" data-aos="fade-up" data-aos-duration="2000">
                   <div class="card h-100 movimientoImagenesInicio m-auto mb-4">
-                    <img src="./assets/images/especial.jpg" class="card-img-top" alt="imagen de torta" width="100%" height="100%">
+                    <img  srcset="./assets/images/especial.jpg 400w,
+                                ./assets/images/especial.jpg 650w"
+                          sizes=" (max-width: 575px) 400px,
+                                  (max-width: 767px) 650px,
+                                  400px"
+                          src="./assets/images/especial.jpg" class="card-img-top" alt="imagen de torta" width="100%" height="100%" loading="lazy">
                     <div class="card-body">
                       <h2 class="card-title">Especial</h2>
                       <p class="resaltarTexto">Desayunos, budines y pan dulces.</p>
@@ -111,8 +128,8 @@
                         <h2>Nosotros</h2>
                     </div>
                     <div class="textoNosotros">
-                        <p>Surgimos en el año <span class="resaltarTexto">2020</span>, en plena pandemia, <span class="resaltarTexto">como un pequeño microemprendimiento</span>. Ante la imposibilidad de la gente de poder salir de sus casas, nosotros pudimos ofrecer un catalogo de muchisimas cosas ricas junto con un servicio de delivery y gracias a <span class="resaltarTexto">nuestros fieles clientes</span> pudimos ir creciendo poco a poco.
-                        Nos encontramos en la localidad de Castelar(zona oeste) y despues de mas de 2 años estamos muy contentos con todo lo que hemos logrado, <span class="resaltarTexto">ofreciendo calidad y buen precio</span>. </p>
+                        <p>Surgimos en el año <span class="resaltarTexto">2020</span>, en plena pandemia, <span class="resaltarTexto">como un pequeño micro-emprendimiento</span>. Ante la imposibilidad de la gente de poder salir de sus casas, nosotros pudimos ofrecer un catálogo de muchísimas cosas ricas junto con un servicio de delivery y gracias a <span class="resaltarTexto">nuestros fieles clientes</span> pudimos ir creciendo poco a poco.
+                        Nos encontramos en la localidad de Castelar (zona oeste) y después de más de 2 años estamos muy contentos con todo lo que hemos logrado, <span class="resaltarTexto">ofreciendo calidad y buen precio</span>. </p>
                     </div>
                 </div>
             </section>
