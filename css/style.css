@@ -308,7 +308,9 @@ form {
 
 @media screen and (max-width: 768px) {
   .tituloBlanco {
-    color: white; }
+    color: #C2185B;
+    font-weight: bold;
+    text-decoration: underline; }
   .cajaFija {
     display: none; }
   .letrasBlancasInicio {

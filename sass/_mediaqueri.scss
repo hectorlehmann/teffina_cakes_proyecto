@@ -1,6 +1,9 @@
 @media screen and (max-width: 768px) {
 
-    .tituloBlanco{ color: $color-blanco;}
+    .tituloBlanco{ color: $color-primario;
+                    font-weight: bold;
+                    text-decoration: underline;}
+    
     .cajaFija{ display: none;}
         
     .letrasBlancasInicio{font-size: 2rem;}
